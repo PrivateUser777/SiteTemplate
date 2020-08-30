@@ -69,7 +69,7 @@ gulp.task('html', function () {
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
 //Выполняет все необходимые задачи с js файлом
 gulp.task('scripts', function () {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/**/*.js')
         .pipe(concat('script.js'))
         // .pipe(uglify({
         //     toplevel: true
