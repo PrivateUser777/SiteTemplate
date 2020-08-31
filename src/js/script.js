@@ -1,6 +1,11 @@
 window.addEventListener('DOMContentLoaded', () => {
     
-   
+    @@include('jquery-3.5.1.min.js')
+    @@include('wow.min.js')
+    @@include('slick.min.js')
+    @@include('fontawesome.min.js')
+    @@include('dynamicAdaptive.js')
+    @@include('scrollAnimate.js')
 
 
 
