@@ -53,8 +53,8 @@ function browserSync() {
         server: {
             baseDir: "./" + project_folder + "/"
         },
-        port: 3000,
-        notify: false
+        port: 3000
+        // notify: false
     });      
 }
 
@@ -183,5 +183,3 @@ exports.html = html;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
-
-
