@@ -1,6 +1,5 @@
 // TODO ******************Адаптация шрифта, отступов и т.д.**********************************************
-$maxWidthPolotno: 1920;
-$maxWidth: 1170;
+
 
 @mixin adaptiv-value($property, $startSize, $minSize, $type){
 	$addSize: $startSize - $minSize;
@@ -39,18 +38,3 @@ $maxWidth: 1170;
 // TODO *************************************************************************************
 
 
-
-
-
-
-// !Старая версия миксина для адаптации шрифта
-// @mixin adaptiv-font($pcSize, $mobSize) {
-// 	$addSize: $pcSize - $mobSize;
-// 	$addMobSize: $addSize + $addSize * 0.7;
-// 	@media(min-width: 767px) {
-// 		font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxwidth}));
-// 	}
-// 	@media(max-width: 767px) {
-// 		font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxwidth}));
-// 	}
-// }

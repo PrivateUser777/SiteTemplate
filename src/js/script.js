@@ -1,8 +1,25 @@
-@@include('jquery-3.5.1.min.js')
+'use strict'
 
-window.addEventListener('DOMContentLoaded', () => {
-	
-	
+// @@include('jquery-3.5.1.min.js')
+// @@include('dynamicAdaptive.js')
+// @@include('functions.js')
+
+
+
+window.onload = function (){
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -97,12 +114,11 @@ window.addEventListener('DOMContentLoaded', () => {
 	
 //!Код к спойлерам
 // // // // // // // // // // // // // // // // // // // // //// // // // // // // // // // // // // // // // //
-/* $('.spoilers__title').click(function () {
-		if ($('.spoilers').hasClass('one')) {
-			$('.spoilers__title').not($(this)).removeClass('active');
-			$('.spoilers__text').not($(this).next()).slideUp(300);
-		}
-		$(this).toggleClass('active').next().slideToggle(300);
-	});*/
+// $('.spoilers__title').click(function () {
+// 	if ($('.spoilers').hasClass('one')) {
+// 		$('.spoilers__title').not($(this)).removeClass('active');
+// 		$('.spoilers__text').not($(this).next()).slideUp(300);
+// 	}
+// 	$(this).toggleClass('active').next().slideToggle(300);
+// });
 // // // // // // // // // // // // // // // // // // // // //// // // // // // // // // // // // // // // // //
-});
