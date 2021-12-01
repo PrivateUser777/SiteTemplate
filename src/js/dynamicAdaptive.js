@@ -4,7 +4,9 @@
 // Andrikanych Yevhen 2020
 // https://www.youtube.com/c/freelancerlifestyle
 
-"use strict";
+//TODO *********************************************** Динамический адаптив***************************************************
+
+//data-da="item,2,992"
 
 (function () {
 	let originalPositions = [];

@@ -1,15 +1,16 @@
-'use strict'
+'use strict';
 
-// @@include('jquery-3.5.1.min.js')
-// @@include('dynamicAdaptive.js')
-// @@include('functions.js')
+@@include('dynamicAdaptive.js')
+@@include('functions.js')
+@@include('popup.js')
 
+
+//TODO *********************************************Основной JavaScript код****************************************************************
 
 
 window.onload = function (){
 
-
-
+	
 
 }
 
