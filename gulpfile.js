@@ -41,8 +41,8 @@ let rename = require("gulp-rename");
 let uglify = require("gulp-uglify-es").default;
 let imagemin = require("gulp-imagemin");
 let webp = require("gulp-webp");
-let webphtml = require("gulp-webp-html");
-let webpcss = require("gulp-webp-css");
+// let webphtml = require("gulp-webp-html");
+// let webpcss = require("gulp-webp-css");
 let svgSprite = require("gulp-svg-sprite");
 let ttf2woff = require('gulp-ttf2woff');
 let ttf2woff2 = require('gulp-ttf2woff2');
@@ -61,7 +61,7 @@ function browserSync() {
 function html() {
 	return src(path.src.html)
 		.pipe(fileinclude())
-		.pipe(webphtml())
+		// .pipe(webphtml())
 		.pipe(dest(path.build.html))
 		.pipe(browsersync.stream())
 }
@@ -71,7 +71,7 @@ function css() {
 		.pipe(scss({outputStyle: "expanded"}))
 		.pipe(group_media())
 		.pipe(autoprefixer({overrideBrowserslist: ["last 5 versions"], cascade: true}))
-		.pipe(webpcss())
+		// .pipe(webpcss())
 		.pipe(dest(path.build.css))
 		.pipe(clean_css())
 		.pipe(rename({extname: ".min.css"}))

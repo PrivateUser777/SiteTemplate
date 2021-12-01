@@ -32,6 +32,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //!Стили для модального окна
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
 /*.popup {
@@ -463,5 +489,72 @@
 			visibility: visible;
 		}
 	}
+}*/
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
+
+
+//!Стили для Слайдера Swiper
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
+/*.image-slider {
+	position: relative;
+	padding: 30px 0 70px 0;
+
+	&__wrapper {
+	}
+
+	&__slide {
+	}
+
+	&__image {
+		text-align: center;
+		img{
+			max-width: 100%; 
+			max-height: 600px;
+		}
+	}
+	// Стрелки
+	.swiper-button-prev::after,
+	.swiper-button-next::after{
+		color: #fff;
+		font-size: 80px;
+	}
+	//Пагинация
+	.swiper-pagination{
+		margin-bottom: 20px;
+	}
+	//Буллеты
+	.swiper-pagination-bullet{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 14px;
+		background-color: #fff;
+	}
+	//Фракция
+	.swiper-pagination-fraction{
+		font-size: 15px;
+		color: #fff;
+	}
+	//Прогрессбар
+	.swiper-pagination-progressbar-fill{
+		background-color: #7a956b;
+	}
+	//Скролл
+	.swiper-scrollbar-drag{
+		cursor: pointer;
+		background-color: #7a956b;
+	}
+	//Мультирядность
+	// height: 700px;
+	// .swiper-slide{
+	// 	height: calc((100% - 30px) / 2);
+	// 	overflow: hidden;
+	// }
+	//Вертикальный слайдер
+	// padding: 0px 0 0px 0;
+	// height: 700px;
+	//Эффект куб
+	// width: 900px;
+
 }*/
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
